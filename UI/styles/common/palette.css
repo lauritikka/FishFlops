@@ -1,0 +1,58 @@
+:root {
+    --primary: #1dcc1d;
+    --light: #1b2833;
+    --secondary: #00c71b;
+    --body-txt: #313131;
+    --white: #fafafa;
+    --dark: #0f0f0f;
+}
+
+/* Use these classes for elements in HTML, for example buttons. This way you can
+tweak the bg and color easily */
+.primary-txt {
+    color: var(--primary);
+}
+
+.primary-bg {
+    background-color: var(--primary);
+}
+
+.primary-border {
+    border: solid var(--primary) 1px;
+}
+
+.secondary-txt {
+    color: var(--secondary);
+}
+
+.secondary-bg {
+    background-color: var(--secondary);
+}
+
+.secondary-border {
+    border: solid var(--secondary) 1px;
+}
+
+.white-txt {
+    color: var(--white);
+}
+
+.white-bg {
+    background-color: var(--white);
+}
+
+.white-border {
+    border: solid var(--white) 2px;
+}
+
+.body-txt-color {
+    color: var(--body-txt);
+}
+
+.dark-bg {
+    background-color: var(--dark);
+}
+
+.light-bg {
+    background-color: var(--light);
+}
